@@ -1,11 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod_project/data/models/models.dart';
 import 'package:gap/gap.dart';
+import 'package:go_router/go_router.dart';
 import 'package:intl/intl.dart';
+
+import '/config/config.dart';
+import '/data/data.dart';
 import '/widgets/widgets.dart';
 import '/utils/utils.dart';
 
 class HomeScreen extends StatelessWidget {
+  static HomeScreen builder(BuildContext context, GoRouterState state) =>
+      const HomeScreen();
+
   const HomeScreen({super.key});
 
   @override
@@ -99,7 +105,9 @@ class HomeScreen extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                         ),
                       ),
-                      onPressed: () {},
+                      onPressed: () {
+                        context.push(RouteLocation.addTask);
+                      },
                       child: DisplayWhiteText(
                         text: "Add New Task",
                         fontSize: 20,

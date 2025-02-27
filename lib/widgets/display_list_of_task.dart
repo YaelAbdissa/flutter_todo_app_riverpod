@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod_project/data/data.dart';
-import 'package:flutter_riverpod_project/utils/utils.dart';
+import '/data/data.dart';
+import '/utils/utils.dart';
 
 import 'widgets.dart';
 

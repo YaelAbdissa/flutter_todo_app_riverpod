@@ -3,12 +3,12 @@ import '/utils/utils.dart';
 
 class DisplayWhiteText extends StatelessWidget {
   final String text;
-  final double fontSize;
+  final double? fontSize;
   final FontWeight? fontWeight;
   const DisplayWhiteText({
     super.key,
     required this.text,
-    required this.fontSize,
+    this.fontSize,
     this.fontWeight,
   });
 

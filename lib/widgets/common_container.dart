@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod_project/utils/utils.dart';
+import '/utils/utils.dart';
 
 class CommonContainer extends StatelessWidget {
   final Widget child;

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod_project/utils/utils.dart';
+import '/utils/utils.dart';
 import 'package:gap/gap.dart';
 
 import '../data/data.dart';

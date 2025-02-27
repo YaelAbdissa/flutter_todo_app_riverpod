@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod_project/widgets/widgets.dart';
+import '/widgets/widgets.dart';
 import '/utils/utils.dart';
 
 import '/data/data.dart';
